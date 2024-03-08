@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+
+}
+
+header {
+    background-color: white;
+    padding: 0.2%;
+    text-align:  center; 
+}
+
+li {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+a {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    background-color: white;
+    padding: 10%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    background-color: black;
+    padding: 10%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#titulo-dois {
+    color: white;
+    margin-left: 15%;
+}
+
+p {
+    margin-left: 15%;
+    color: white;
+}
+
+span {
+    color:white;
+    font-weight:bolder;
+    font-size: 110%;
+}
+
+#cabecalho {
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.lista {
+    color: white;
+    display: block;
+    margin-left: 4%;
+    padding-top: 1%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 768px) {
+
+    img {
+       width: 50%;
+    }   
+   
+   }
+@media only screen and (max-width: 549px) {
+
+a {
+    font-size: 80%;
+}
+
+img {
+    width: 0%;
+}
+
+#cabecalho {
+    display: block;
+    text-align: center;
+}
+
+#titulo-dois, p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+}
+
+
+
+
