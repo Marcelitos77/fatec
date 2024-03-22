@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    font-family: 'roboto';
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: #ffffff;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'madimi one', 'tahoma';
+    padding-top: 20px;
+}
+
+nav {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'roboto', 'tahoma';
+}
+
+nav a {
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    border-bottom: 0.3em solid #00bfff;
+    font-weight: bold;
+    padding-bottom: 0.4em;
+}
+
+
+
+
+footer {
+    background-color: #191970;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'roboto';
+    text-align: center;
+    padding: 17px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+    
+
+
