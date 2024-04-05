@@ -1,0 +1,44 @@
+main {
+    display: block;
+    
+}
+
+section h2 {
+    text-align: center; 
+}
+
+
+#tabela {
+    width: 100%;  
+}
+
+caption {
+    padding-top: 20px;
+}
+
+#tabela, #tabela th, #tabela td {
+    border: 0.1em solid #191970;
+    border-collapse: collapse;
+}
+
+#tabela thead {
+    background-color: #5555a6;
+    color: white;
+}
+
+#tabela td {
+    text-align: center;
+}
+
+#tabela td:nth-child(1){
+    text-align: left;
+}
+
+#tabela tbody tr:nth-child(even){
+    background-color: #9696bf;
+}
+
+#tabela tfoot {
+    background-color: #5555a6;
+    color: white;
+}
